@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def maxProfit(self, prices):
         buyingPointer = 0
         sellingPointer = 1

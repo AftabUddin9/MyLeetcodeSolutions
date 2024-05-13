@@ -7,4 +7,4 @@ class Solution:
             if diff in prevMap:             # if first value exists
                 return [prevMap[diff], i]   # return solution
             prevMap[n] = i                  # otherwise add n to map
-        return    
+        return
